@@ -8,13 +8,16 @@ Unpack the elements of the tuple into separate variables and print them.'''
 # Create tuple of 3 cities
 cities = ("Delhi", "Mumbai", "Chennai")
 print("Cities tuple:", cities)
+
 # Access first and last
 print("First city:", cities[0])
 print("Last city:", cities[-1])
+
 # Create another tuple and concatenate
 more_cities = ("Kolkata", "Bengaluru")
 all_cities = cities + more_cities
 print("All cities:", all_cities)
+
 # Try changing one element
 # Unpack elements
 c1, c2, c3 = cities

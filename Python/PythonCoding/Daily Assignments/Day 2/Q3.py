@@ -9,17 +9,21 @@ Convert a list of fruits (with some duplicates) into a set and print the unique 
 # Create a set of 5 colors
 colors = {"red", "blue", "green", "yellow", "black"}
 print("Original set:", colors)
+
 # Add one, remove one
 colors.add("white")
 colors.remove("blue")
 print("Updated set:", colors)
+
 # Set operations
 other_colors = {"green", "purple", "orange"}
 print("Intersection:", colors.intersection(other_colors))
 print("Union:", colors.union(other_colors))
 print("Difference:", colors.difference(other_colors))
+
 # Check if color is in set
 print("Is red in colors?", "red" in colors)
+
 # List with duplicates to set
 fruit_list = ["apple", "apple", "banana", "kiwi", "banana"]
 unique_fruits = set(fruit_list)

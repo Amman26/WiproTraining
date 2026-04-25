@@ -8,16 +8,20 @@ Find and print the length of your list.'''
 # Create list of 5 fruits
 fruits = ["apple", "banana", "mango", "orange", "grapes"]
 print("Original list:", fruits)
+
 # Add two, remove one
 fruits.append("pineapple")
 fruits.append("watermelon")
 fruits.remove("banana")
 print("Updated list:", fruits)
+
 # Access second and fourth
 print("Second fruit:", fruits[1])
 print("Fourth fruit:", fruits[3])
+
 # Slice first three
 first_three = fruits[0:3]
 print("First three fruits:", first_three)
+
 # Find length
 print("Length of list:", len(fruits))
