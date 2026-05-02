@@ -1,0 +1,21 @@
+class Calculations:
+    def add(self, n1, n2):
+        return n1 + n2
+
+    def sub(self, n1, n2):
+        return n1 - n2
+
+    def mul(self, n1, n2):
+        return n1 * n2
+
+    def div(self, n1, n2):
+        return n1 / n2
+
+    def ne(self, n1, n2):
+        return n1 != n2
+
+    def area_of_square(self, side):
+        return side * side
+
+    def peri_of_rectangle(self, l, b):
+        return 2 * (l + b)
