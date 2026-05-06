@@ -1,11 +1,10 @@
 """"code for google page testing"""
 
-
 from selenium import webdriver
 from selenium.webdriver.edge.service import Service
-# from webdriver_manager.microsoft import EdgeChromiumDriverManager
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
-browser = input('What browser you want to use. edge/chrome ')
+#browser = input('What browser you want to use. edge/chrome ')
 
 
 
