@@ -58,3 +58,4 @@ def test_simple_js_prompt(driver):
     time.sleep(3)
     result = driver.find_element(By.ID,'result').text
     assert "Python Selenium" in result, 'Result text was wrong'
+# -----------------------------------------------------------

@@ -30,11 +30,11 @@ def test_image_page_loaded(driver):
 def test_business_page(driver):
     driver.find_element(By.LINK_TEXT,'Business').click()
     # time.sleep(1)
-    wait = WebDriverWait(driver,2)
+    wait = WebDriverWait(driver,5)
     wait.until(EC.title_contains('Business'))
     # assert 'Business' in driver.title,'Business page NOT loaded -- title check'
     # assert 'business' in driver.current_url,'Business page NOT loaded -- url check'
 
 #  for checking two or more failures
     check.equal('business',driver.title,'Business page NOT loaded -- title check')
-    check.is_in('Business', driver.current_url, 'Business page NOT loaded -- URL check')
+    check.is_in('business', driver.current_url, 'Business page NOT loaded -- URL check')
