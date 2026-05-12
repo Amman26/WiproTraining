@@ -5,27 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84912e7a-660f-4a12-ba75-babb5b72fc38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/behave.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/environment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/product.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/signup.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/login_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/signup_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locators/login_locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locators/signup_locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/signup_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/config_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/screenshot_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/waits.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/search.feature" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/config/qa.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/libraries/csv_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/libraries/excel_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/libraries/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/libraries/screenshot_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/keywords/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/keywords/login_keywords.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/keywords/signup_keywords.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/locators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/locators/login_locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/locators/signup_locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/pages/LoginPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/pages/SignupPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/variables/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/variables/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/variables/environments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/variables/testdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/runtests.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/tests/login.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/tests/signup.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BDDProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BDDProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behave.ini" beforeDir="false" afterPath="$PROJECT_DIR$/behave.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/signup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/signup.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/signup_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/signup_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/signup_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/signup_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/signup_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signup_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/steps/stepdefinitions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtests.py" beforeDir="false" afterPath="$PROJECT_DIR$/runtests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,16 +68,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Wipro Training/BDD/BDDProject&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Wipro Training/BDD/BDDProject"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Wipro Training\BDD\BDDProject" />

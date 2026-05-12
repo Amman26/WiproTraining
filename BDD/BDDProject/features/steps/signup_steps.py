@@ -1,11 +1,45 @@
+import time
+import allure
+from behave import given, when, then
+
+from pages.signup_page import SignupPage
+from utils.logger import LogGen
+from utils.screenshot_util import ScreenshotUtil
+
+logger = LogGen.loggen()
 
 
+@given(u'User launches Demoblaze application')
+def step_impl(context):
+    logger.info('Demoblaze URL loaded')
 
-class SignupLocators:
 
-    SINGUP_MENU = (By.LINK_TEXT, "Sign up")
+@when(u'User clicks on Sign up menu')
+def step_impl(context):
+    logger.info("Step : Click signup menu")
+    context.signup_page = SignupPage(context.driver)
+    context.signup_page.click_signup_menu()
 
-    USERNAME_INPUT = (By.ID, "sign-username")
-    PASSWORD_INPUT = (By.ID, "sign-password")
 
-    SIGNUP_BUTTON = (By.XPATH, "//button[txt")
+@when(u'User enters signup username "{username}"')
+def step_impl(context, username):
+    # Appending a timestamp to ensure the username is unique every run
+    unique_username = f"{username}_{int(time.time())}"
+    logger.info(f"Step : Enter Username : {unique_username}")
+    context.signup_page.enter_username(unique_username)
+
+@when(u'User enters signup password "{password}"')
+def step_impl(context, password):
+    logger.info(f"Step : Enter Password : {password}")
+    context.signup_page.enter_password(password)
+
+@when(u'User clicks Signup button')
+def step_impl(context):
+    logger.info(f"Step : Click Signup button")
+    context.signup_page.click_signup_button()
+
+
+@then(u'User should see signup success message')
+def step_impl(context):
+    logger.info("Step : Verify Successful Login")
+    context.signup_page.verify_successful_signup()

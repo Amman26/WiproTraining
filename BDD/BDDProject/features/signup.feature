@@ -1,3 +1,5 @@
+
+
 Feature: Signup Functionality
 
   Background:
@@ -6,8 +8,8 @@ Feature: Signup Functionality
 #  @smoke @signup
   Scenario: Successful Signup
     When User clicks on Sign up menu
-    And User enters signup username "useraaaaa"
-    And User enters signup password "pwdaaaaa"
+    And User enters signup username "ugbuhbhbhebwhbfjhwbefjhwefwejhfwe"
+    And User enters signup password "password123"
     And User clicks Signup button
     Then User should see signup success message
 

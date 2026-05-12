@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-05-11T16:07:52.109235" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\Wipro Training\ROBOT\RobotProject\tests">
+<suite id="s1-s1" name="Login" source="C:\Wipro Training\ROBOT\RobotProject\tests\login.robot">
+<test id="s1-s1-t1" name="Verify User Can Login Successfully" line="5">
+<kw name="Open Demoblaze Application" owner="login_keywords">
+<kw name="Launch Demoblaze Application" owner="login_keywords">
+<kw name="Fail" owner="BuiltIn">
+<msg time="2026-05-11T16:07:52.515408" level="FAIL">Not Implemented</msg>
+<arg>Not Implemented</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2026-05-11T16:07:52.514697" elapsed="0.001033">Not Implemented</status>
+</kw>
+<status status="FAIL" start="2026-05-11T16:07:52.513306" elapsed="0.002738">Not Implemented</status>
+</kw>
+<status status="FAIL" start="2026-05-11T16:07:52.512569" elapsed="0.003710">Not Implemented</status>
+</kw>
+<kw name="Click Login Menu" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T16:07:52.516682" elapsed="0.000057"/>
+</kw>
+<kw name="Enter Login Username" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T16:07:52.517099" elapsed="0.000297"/>
+</kw>
+<kw name="Enter Login Password" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T16:07:52.517827" elapsed="0.000046"/>
+</kw>
+<kw name="Click Login Button" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T16:07:52.518170" elapsed="0.000047"/>
+</kw>
+<kw name="Validate Successful Login" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T16:07:52.518543" elapsed="0.000049"/>
+</kw>
+<kw name="Close Application" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T16:07:52.518919" elapsed="0.000048"/>
+</kw>
+<status status="FAIL" start="2026-05-11T16:07:52.511211" elapsed="0.008158">Not Implemented</status>
+</test>
+<test id="s1-s1-t2" name="Verify Invalid User Login" line="14">
+<kw name="Open Demoblaze Application" owner="login_keywords">
+<kw name="Launch Demoblaze Application" owner="login_keywords">
+<kw name="Fail" owner="BuiltIn">
+<msg time="2026-05-11T16:07:52.525158" level="FAIL">Not Implemented</msg>
+<arg>Not Implemented</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2026-05-11T16:07:52.524726" elapsed="0.000559">Not Implemented</status>
+</kw>
+<status status="FAIL" start="2026-05-11T16:07:52.524415" elapsed="0.001022">Not Implemented</status>
+</kw>
+<status status="FAIL" start="2026-05-11T16:07:52.524081" elapsed="0.001482">Not Implemented</status>
+</kw>
+<kw name="Click Login Menu" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T16:07:52.525874" elapsed="0.000043"/>
+</kw>
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T16:07:52.526192" elapsed="0.000042"/>
+</kw>
+<kw name="Enter Invalid Login Password" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T16:07:52.526491" elapsed="0.000044"/>
+</kw>
+<kw name="Click Login Button" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T16:07:52.526837" elapsed="0.000050"/>
+</kw>
+<kw name=" Validate Invalid Login Alert" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T16:07:52.527229" elapsed="0.000050"/>
+</kw>
+<kw name="Close Application" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T16:07:52.527623" elapsed="0.000053"/>
+</kw>
+<status status="FAIL" start="2026-05-11T16:07:52.523522" elapsed="0.004513">Not Implemented</status>
+</test>
+<status status="FAIL" start="2026-05-11T16:07:52.178688" elapsed="0.350479"/>
+</suite>
+<suite id="s1-s2" name="Signup" source="C:\Wipro Training\ROBOT\RobotProject\tests\signup.robot">
+<test id="s1-s2-t1" name="Verify User Can Signup Successfully" line="5">
+<kw name="Open Demoblaze Application" owner="signup_keywords">
+<kw name="Launch Demoblaze Application" owner="SignupPage">
+<msg time="2026-05-11T16:07:52.546557" level="INFO">Opening browser 'edge' to base url 'https://www.demoblaze.com'.</msg>
+<status status="PASS" start="2026-05-11T16:07:52.546391" elapsed="3.439635"/>
+</kw>
+<status status="PASS" start="2026-05-11T16:07:52.546065" elapsed="3.440121"/>
+</kw>
+<kw name="Click Signup Menu" owner="signup_keywords">
+<kw name="Click Signup Link" owner="SignupPage">
+<msg time="2026-05-11T16:07:55.989489" level="INFO">Clicking element 'id:sigin2'.</msg>
+<msg time="2026-05-11T16:08:01.032148" level="FAIL">Element with locator 'id:sigin2' not found.</msg>
+<status status="FAIL" start="2026-05-11T16:07:55.989371" elapsed="5.045132">Element with locator 'id:sigin2' not found.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T16:07:55.989006" elapsed="5.045678">Element with locator 'id:sigin2' not found.</status>
+</kw>
+<kw name="Enter Signup Username" owner="signup_keywords">
+<status status="NOT RUN" start="2026-05-11T16:08:01.035096" elapsed="0.000059"/>
+</kw>
+<kw name="Enter Signup Password" owner="signup_keywords">
+<status status="NOT RUN" start="2026-05-11T16:08:01.035399" elapsed="0.000035"/>
+</kw>
+<kw name="Click Signup Button" owner="signup_keywords">
+<status status="NOT RUN" start="2026-05-11T16:08:01.035652" elapsed="0.000032"/>
+</kw>
+<kw name="Validate Signup Success Message" owner="signup_keywords">
+<status status="NOT RUN" start="2026-05-11T16:08:01.035916" elapsed="0.000034"/>
+</kw>
+<kw name="Close Application" owner="signup_keywords">
+<status status="NOT RUN" start="2026-05-11T16:08:01.036170" elapsed="0.000032"/>
+</kw>
+<status status="FAIL" start="2026-05-11T16:07:52.545484" elapsed="8.490976">Element with locator 'id:sigin2' not found.</status>
+</test>
+<status status="FAIL" start="2026-05-11T16:07:52.530274" elapsed="8.506822"/>
+</suite>
+<status status="FAIL" start="2026-05-11T16:07:52.112065" elapsed="8.925861"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="0" fail="3" skip="0">Tests</stat>
+<stat name="Login" id="s1-s1" pass="0" fail="2" skip="0">Tests.Login</stat>
+<stat name="Signup" id="s1-s2" pass="0" fail="1" skip="0">Tests.Signup</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
