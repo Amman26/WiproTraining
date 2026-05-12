@@ -5,42 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84912e7a-660f-4a12-ba75-babb5b72fc38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/config/qa.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/libraries/csv_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/libraries/excel_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/libraries/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/libraries/screenshot_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/keywords/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/keywords/login_keywords.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/keywords/signup_keywords.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/locators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/locators/login_locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/locators/signup_locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/pages/LoginPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/pages/SignupPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/variables/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/variables/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/variables/environments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/resources/variables/testdata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/runtests.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/tests/login.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ROBOT/RobotProject/tests/signup.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BDDProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BDDProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behave.ini" beforeDir="false" afterPath="$PROJECT_DIR$/behave.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/signup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/signup.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/signup_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/signup_steps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/signup_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/signup_locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/signup_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signup_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtests.py" beforeDir="false" afterPath="$PROJECT_DIR$/runtests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-report/data/attachments/b234f0c7af20ed8d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/allure-report/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/allure-report/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-report/data/test-cases/4516655a50a173d3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/allure-report/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports/allure-report/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports/allure-report/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/allure-report/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/allure-report/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/allure-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/allure-report/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/allure-report/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/allure-report/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/allure-report/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/allure-report/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/14e26650-fd5e-4881-ade5-97057d7a6839-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/616845c3-c853-4104-922a-64f79e1f7d8f-attachment.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,17 +50,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Wipro Training/BDD/BDDProject"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Wipro Training/BDD/BDDProject&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Wipro Training\BDD\BDDProject" />
