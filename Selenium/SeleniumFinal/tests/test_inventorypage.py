@@ -8,7 +8,7 @@ from utils.excel_reader import ExcelReader
 @pytest.mark.parametrize(
     "data",
     # CSVReader.read_csv("product_validation_data.csv")
-    ExcelReader.read_excel("test_data.xlsx", "product_validation_data")
+    ExcelReader.read_excel("test_data.ods", "product_validation_data")
 )
 @pytest.mark.order(4)
 def test_product_data(driver, data):
