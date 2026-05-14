@@ -1,6 +1,7 @@
 import csv
 import os
 
+
 class CSVReader:
 
     @staticmethod

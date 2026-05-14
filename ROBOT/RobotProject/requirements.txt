@@ -11,5 +11,5 @@ requests
 pyyaml
 openpyxl
 pandas
-#faker
-#python-dotenv
+faker
+python-dotenv

@@ -30,10 +30,5 @@ Enter Invalid Login Username
 Enter Invalid Login Password
     Enter Invalid Login Password
 
- Validate Invalid Login Alert
+Validate Invalid Login Alert
     Validate Invalid Login Alert
-
-
-Launch Demoblaze Application
-    # TODO: implement keyword "Launch Demoblaze Application".
-    Fail    Not Implemented

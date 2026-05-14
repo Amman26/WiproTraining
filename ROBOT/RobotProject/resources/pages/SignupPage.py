@@ -42,7 +42,7 @@ class SignupPage:
                 "SeleniumLibrary"
             ))
 
-    @keyword
+
     def launch_demoblaze_application(self):
         self.selenium.open_browser(
             url=config.base_url,
@@ -53,33 +53,28 @@ class SignupPage:
             config.implicit_wait
         )
 
-    @keyword
     def click_signup_link(self):
         self.selenium.click_element(
             SIGNUP_LINK
         )
 
-    @keyword
     def enter_username(self):
         self.selenium.input_text(
             USERNAME_TEXTBOX,
             SIGNUP_USERNAME
         )
 
-    @keyword
     def enter_password(self):
         self.selenium.input_text(
             PASSWORD_TEXTBOX,
             SIGNUP_PASSWORD
         )
 
-    @keyword
     def click_register_button(self):
         self.selenium.click_button(
             SIGNUP_BUTTON
         )
 
-    @keyword
     def verify_signup_success_alert(self):
         try:
             WebDriverWait(self.selenium.driver, 10).until(  EC.alert_is_present()  )
